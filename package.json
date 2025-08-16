@@ -1,0 +1,43 @@
+{
+  "name": "nusatech-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website untuk perusahaan teknologi NusaTech",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to GitHub Pages'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "nusatech",
+    "revou",
+    "coding-camp",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "NusaTech Team",
+  "contributors": [
+    "Vina Nurul Izzati",
+    "Bagas Pratama", 
+    "Chandra Saputra"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Revou-Coding-Camp/codingcamp-11-aug-25-vinanui.git"
+  },
+  "homepage": "https://revou-coding-camp.github.io/codingcamp-11-aug-25-vinanui/",
+  "bugs": {
+    "url": "https://github.com/Revou-Coding-Camp/codingcamp-11-aug-25-vinanui/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
